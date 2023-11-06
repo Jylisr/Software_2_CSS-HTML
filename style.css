@@ -1,3 +1,27 @@
-title {
-    color: black;
+/* Ensure proper sizing */
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side2 {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
 }
