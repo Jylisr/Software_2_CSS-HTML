@@ -16,4 +16,15 @@ picture img {
   margin-right: auto;
 }
 
+header {
+  background-color: darkslategray;
+}
 
+logo img {
+  max-width: 100%;
+  width: 800px;
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
