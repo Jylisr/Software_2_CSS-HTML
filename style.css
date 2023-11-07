@@ -1,27 +1,19 @@
-/* Ensure proper sizing */
-* {
-  box-sizing: border-box;
+
+.p {
+  font-family: Courier New;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
+.p {
+  font-size: 28px;
 }
 
-.side2 {
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
+picture img {
+  max-width: 100%;
+  width: 800px;
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.side {
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
 
-.main {
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
-}
