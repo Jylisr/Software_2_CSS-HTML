@@ -1,10 +1,12 @@
 
-.p {
-  font-family: Courier New;
+p {
+    font-family: Courier;
+    font-size: 28px;
 }
 
-.p {
-  font-size: 28px;
+h1 {
+    font-family: Arial;
+    font-size: 40px;
 }
 
 picture img {
@@ -17,7 +19,7 @@ picture img {
 }
 
 header {
-  background-color: darkslategray;
+  background-color: lightgrey;
 }
 
 logo img {
@@ -29,17 +31,60 @@ logo img {
   margin-right: auto;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+}
+
+
 nav ul {
   list-style: none;
-  float: right
 }
 nav ul li {
   display: inline-block;
 }
 
 .logo img {
-  float: left;
   margin: 0;
-  width: 8%;
-  height: 9%;
+  width: 10%;
+  height: 11%;
+}
+
+.picture img {
+    display: flex;
+    width: 85%;
+    height: 85%;
+    background-size: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.map img {
+    display: flex;
+    width: 30%;
+    height: 30%;
+    background-size: 30%;
+    margin-left: auto;
+}
+.content {
+    display: flex;
+    background: beige;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 220%;
+}
+
+li a {
+    text-decoration: none;
+    color: darkslategray;
+    margin-right: 10%;
+}
+.contact_content {
+    color: black;
+    display: inline-block;
 }
