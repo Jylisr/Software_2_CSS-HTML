@@ -1,7 +1,7 @@
 
 p {
     font-family: Courier;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 h1 {
@@ -19,7 +19,7 @@ picture img {
 }
 
 header {
-  background-color: lightgrey;
+  background-color: white;
 }
 
 logo img {
@@ -36,6 +36,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     height: 55px;
+    margin-top: auto;
 }
 
 
@@ -44,6 +45,9 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
+}
+nav ul li a {
+    padding-inline: 3rem;
 }
 
 .logo img {
@@ -59,8 +63,8 @@ nav ul li {
     background-size: 50%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 7%;
+    margin-bottom: 7%;
 }
 
 .map img {
@@ -69,20 +73,24 @@ nav ul li {
     height: 30%;
     background-size: 30%;
     margin-left: auto;
+    margin: 20%;
+    border: darkslategray;
 }
 .content {
     display: flex;
-    background: beige;
+    background: darkslategray;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
     height: 220%;
+    color: cornsilk;
 }
 
 li a {
+    display: flex;
     text-decoration: none;
     color: darkslategray;
-    margin-right: 10%;
+    margin-right: 40%;
 }
 .contact_content {
     color: black;
@@ -91,13 +99,66 @@ li a {
 
 .products {
     display: flex;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
+.products figure img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products figure{
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: 55%;
+    background-color: orangered;
+}
+
 figcaption {
-    font-size: 40px;
+    font-size: 30px;
+    color: black;
 }
 
 .text1 {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
+    color: black;
 }
+
+.nav_items {
+    margin-right: 3%;
+    font-size: 22px;
+}
+
+html {
+    background-color: darkgray;
+}
+
+.head_image {
+    margin-left: 45%;
+    margin-right: 50%;
+}
+
+.head_image img{
+    margin-left: 0%;
+    margin-right: 50%;
+}
+
+main {
+    margin: 100%;
+}
+
+
+
+
+
+
+
+
