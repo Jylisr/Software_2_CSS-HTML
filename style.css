@@ -88,3 +88,16 @@ li a {
     color: black;
     display: inline-block;
 }
+
+.products {
+    display: flex;
+}
+figcaption {
+    font-size: 40px;
+}
+
+.text1 {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
