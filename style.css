@@ -162,6 +162,10 @@ main {
     height: 100%;
 }
 
+.head_subtext {
+    width: 70%;
+    height: auto;
+}
 
 
 
