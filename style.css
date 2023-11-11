@@ -68,28 +68,28 @@ nav ul li a {
 }
 
 .map img {
-    display: flex;
+    position: fixed;
+    top: 1;
+    right: 0;
     width: 30%;
     height: 30%;
     background-size: 30%;
-    margin-left: auto;
-    margin: 20%;
     border: darkslategray;
     padding: 3px;
 }
 
 .content {
-    display: block;
+    display: flex;
+    flex-direction: column;
     background: #333333;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    height: 220%;
+    height: 60vh;
     color: #FFFFFF;
 }
 
 .content p {
-    display: block;
     margin: 0 auto;
     margin-top: 20%;
     width: 50%;
@@ -105,6 +105,7 @@ li a {
 .contact_content {
     color: #FFFFFF;
     display: inline-block;
+     background: #333333;
 }
 
 .products {
@@ -117,16 +118,19 @@ li a {
 
 .product1 {
     background-color: #666666;
+    height: 120%;
     width: 50%;
 }
 
 .product2 {
     background-color: #444444;
+    height: 120%;
     width: 50%;
 }
 
 .product3 {
     background-color: #555555;
+    height: 120%;
     width: 50%;
 }
 
@@ -145,6 +149,7 @@ li a {
     width: 65%;
     height: 55%;
     background-color: #333333;
+    background-size: 120%;
 }
 
 figcaption {
@@ -194,14 +199,14 @@ main {
     text-align: center;
     width: 80%;
     margin: 0 auto;
-    height: 80%;
+    height: 60vh;
 }
 
 .carimage img {
     display: block;
     margin: 0 auto;
-    width: 75%;
-    height: 75%;
+    width: 80%;
+    height: 80%;
 }
 
 .head_subtext {
