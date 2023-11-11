@@ -69,11 +69,11 @@ nav ul li a {
 
 .map img {
     position: fixed;
-    top: 1;
+    top: 10;
     right: 0;
     width: 30%;
     height: 30%;
-    background-size: 30%;
+    background-size: 100%;
     border: darkslategray;
     padding: 3px;
 }
@@ -169,7 +169,7 @@ figcaption {
     font-size: 22px;
 }
 
-html, body {
+html {
     background-color: #1A0D19;
     background-image: url(sitebackground.jpg);
     background-size: cover;
@@ -181,7 +181,7 @@ html, body {
     display: flex;
     margin-left: 45%;
     margin-right: 50%;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .head_image img{
