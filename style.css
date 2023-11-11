@@ -76,6 +76,7 @@ nav ul li a {
     background-size: 100%;
     border: darkslategray;
     padding: 3px;
+    border-radius: 15px;
 }
 
 .content {
@@ -120,18 +121,42 @@ li a {
     background-color: #666666;
     height: 120%;
     width: 50%;
+    border-radius: 15px;
 }
 
 .product2 {
     background-color: #444444;
     height: 120%;
     width: 50%;
+    border-radius: 15px;
 }
 
 .product3 {
     background-color: #555555;
     height: 120%;
     width: 50%;
+    border-radius: 15px;
+}
+
+.product1 p, figcaption{
+    margin: 0 auto;
+    margin-top: 20%;
+    width: 50%;
+    height: 50%;
+}
+
+.product2 p, figcaption{
+    margin: 0 auto;
+    margin-top: 20%;
+    width: 50%;
+    height: 50%;
+}
+
+.product3 p, figcaption{
+    margin: 0 auto;
+    margin-top: 20%;
+    width: 50%;
+    height: 50%;
 }
 
 .products figure img {
@@ -150,6 +175,7 @@ li a {
     height: 55%;
     background-color: #333333;
     background-size: 120%;
+    border-radius: 15px;
 }
 
 figcaption {
@@ -207,6 +233,7 @@ main {
     margin: 0 auto;
     width: 80%;
     height: 80%;
+    border-radius: 15px;
 }
 
 .head_subtext {
